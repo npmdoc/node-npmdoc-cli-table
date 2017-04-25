@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "cli-table",
-    "description": "api documentation for [cli-table (v0.3.1)](https://github.com/Automattic/cli-table) [![npm package](https://img.shields.io/npm/v/npmdoc-cli-table.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cli-table) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cli-table.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cli-table)",
+    "description": "#### basic api documentation for  [cli-table (v0.3.1)](https://github.com/Automattic/cli-table)  [![npm package](https://img.shields.io/npm/v/npmdoc-cli-table.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cli-table) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cli-table.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cli-table)",
     "devDependencies": {
         "cli-table": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

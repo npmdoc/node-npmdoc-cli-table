@@ -1,9 +1,14 @@
-# api documentation for  [cli-table (v0.3.1)](https://github.com/Automattic/cli-table)  [![npm package](https://img.shields.io/npm/v/npmdoc-cli-table.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cli-table) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cli-table.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cli-table)
+# npmdoc-cli-table
+
+#### basic api documentation for  [cli-table (v0.3.1)](https://github.com/Automattic/cli-table)  [![npm package](https://img.shields.io/npm/v/npmdoc-cli-table.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cli-table) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cli-table.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cli-table)
+
 #### Pretty unicode tables for the CLI
 
-[![NPM](https://nodei.co/npm/cli-table.png?downloads=true)](https://www.npmjs.com/package/cli-table)
+[![NPM](https://nodei.co/npm/cli-table.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cli-table)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-cli-table/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-cli-table%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cli-table/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-cli-table/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-cli-table/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-cli-table/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cli-table/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-cli-table/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Guillermo Rauch",
-        "email": "guillermo@learnboost.com"
+        "name": "Guillermo Rauch"
     },
     "bugs": {
         "url": "https://github.com/Automattic/cli-table/issues"
@@ -26,7 +30,6 @@
     "contributors": [
         {
             "name": "Sonny Michaud",
-            "email": "michaud.sonny@gmail.com",
             "url": "http://github.com/sonnym"
         }
     ],
@@ -59,13 +62,11 @@
     "main": "lib",
     "maintainers": [
         {
-            "name": "rauchg",
-            "email": "rauchg@gmail.com"
+            "name": "rauchg"
         }
     ],
     "name": "cli-table",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Automattic/cli-table.git"
@@ -73,20 +74,10 @@
     "scripts": {
         "test": "make test"
     },
-    "version": "0.3.1"
+    "version": "0.3.1",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module cli-table](#apidoc.module.cli-table)
-1.  string <span class="apidocSignatureSpan">cli-table.</span>version
-
-
-
-# <a name="apidoc.module.cli-table"></a>[module cli-table](#apidoc.module.cli-table)
 
 
 
