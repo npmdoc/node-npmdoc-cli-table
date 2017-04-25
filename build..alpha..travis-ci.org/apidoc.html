@@ -63,6 +63,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.cli-table.cli-table">
+            function <span class="apidocSignatureSpan"></span>cli-table
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">cli-table.</span>version</span>
 
         </li>
@@ -73,6 +82,50 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.cli-table" id="apidoc.module.cli-table">module cli-table</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cli-table.cli-table" id="apidoc.element.cli-table.cli-table">
+        function <span class="apidocSignatureSpan"></span>cli-table
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Table(options){
+  this.options = utils.options({
+      chars: {
+          &#x27;top&#x27;: &#x27;─&#x27;
+        , &#x27;top-mid&#x27;: &#x27;┬&#x27;
+        , &#x27;top-left&#x27;: &#x27;┌&#x27;
+        , &#x27;top-right&#x27;: &#x27;┐&#x27;
+        , &#x27;bottom&#x27;: &#x27;─&#x27;
+        , &#x27;bottom-mid&#x27;: &#x27;┴&#x27;
+        , &#x27;bottom-left&#x27;: &#x27;└&#x27;
+        , &#x27;bottom-right&#x27;: &#x27;┘&#x27;
+        , &#x27;left&#x27;: &#x27;│&#x27;
+        , &#x27;left-mid&#x27;: &#x27;├&#x27;
+        , &#x27;mid&#x27;: &#x27;─&#x27;
+        , &#x27;mid-mid&#x27;: &#x27;┼&#x27;
+        , &#x27;right&#x27;: &#x27;│&#x27;
+        , &#x27;right-mid&#x27;: &#x27;┤&#x27;
+        , &#x27;middle&#x27;: &#x27;│&#x27;
+      }
+    , truncate: &#x27;…&#x27;
+    , colWidths: []
+    , colAligns: []
+    , style: {
+          &#x27;padding-left&#x27;: 1
+        , &#x27;padding-right&#x27;: 1
+        , head: [&#x27;red&#x27;]
+        , border: [&#x27;grey&#x27;]
+        , compact : false
+      }
+    , head: []
+  }, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
 
